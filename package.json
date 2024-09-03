@@ -1,1 +1,20 @@
-{}
+{
+  "name": "nodejs2",
+  "version": "1.0.0",
+  "main": "./Clase2/http.js",
+  "scripts": {
+    "dev:2": "nodemon routing.js",
+    "dev:1": "nodemon http.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
